@@ -85,15 +85,15 @@ Expected saved revenue for a typical outage week:
 
 | Path | Purpose |
 |---|---|
-| `dashboard.py` | Localhost dashboard, SMS/voice actions, and incoming-data API |
-| `run_demo.py` | End-to-end data, model, evaluation, and output runner |
-| `generate_data.py` | Reproducible synthetic grid, appliance, and business data |
-| `forecaster.py` | 24-hour outage probability and duration forecaster |
-| `prioritizer.py` | Appliance ON/OFF planner |
-| `lite_ui.html` | Static lightweight demo page |
-| `PROJECT_GUIDE.md` | Implementation notes, APIs, SMS/voice, and product adaptation |
-| `MODEL_CARD.md` | Local model documentation |
-| `digest_spec.md` | Product and business digest required by the challenge |
+| [dashboard.py](dashboard.py) | Localhost dashboard, SMS/voice actions, and incoming-data API |
+| [run_demo.py](run_demo.py) | End-to-end data, model, evaluation, and output runner |
+| [generate_data.py](generate_data.py) | Reproducible synthetic grid, appliance, and business data |
+| [forecaster.py](forecaster.py) | 24-hour outage probability and duration forecaster |
+| [prioritizer.py](prioritizer.py) | Appliance ON/OFF planner |
+| [lite_ui.html](lite_ui.html) | Static lightweight demo page |
+| [PROJECT_GUIDE.md](PROJECT_GUIDE.md) | Implementation notes, APIs, SMS/voice, and product adaptation |
+| [MODEL_CARD.md](MODEL_CARD.md) | Local model documentation |
+| [digest_spec.md](digest_spec.md) | Product and business digest required by the challenge |
 
 ## Incoming Data
 
@@ -190,4 +190,4 @@ https://drive.google.com/file/d/1ZDblyOTrFII-JmWbkfPFF3NVkL1pZmZI/view?usp=shari
 
 ## License
 
-MIT. See `LICENSE`.
+MIT. See [LICENSE](LICENSE).
