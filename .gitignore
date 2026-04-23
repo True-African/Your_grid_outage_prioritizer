@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+sms_recipients.local.json
+outputs/sms_outbox.jsonl
+outputs/voice_notes/
+data/incoming_signals.jsonl
+data/incoming_measurements.csv
+outputs/
+models/*.joblib
+*.wav
+*.jsonl
+*.png
+*.ipynb_checkpoints
+tests/__pycache__/
