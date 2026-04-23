@@ -35,11 +35,32 @@ Windows users can double-click:
 START_DASHBOARD.bat
 ```
 
-Terminal users can run:
+Terminal users can create the virtual environment with:
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
+```
+
+Then activate it in the shell you are using:
+
+```powershell
+# Windows PowerShell
+.\venv\Scripts\Activate.ps1
+```
+
+```cmd
+:: Windows Command Prompt
+venv\Scripts\activate.bat
+```
+
+```bash
+# Git Bash on Windows
+source venv/Scripts/activate
+```
+
+After activation, install dependencies and start the local dashboard:
+
+```bash
 pip install -r requirements.txt
 python dashboard.py
 ```
