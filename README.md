@@ -1,3 +1,12 @@
+---
+title: Grid Outage Planner
+sdk: static
+app_file: lite_ui.html
+colorFrom: green
+colorTo: blue
+short_description: 24-hour outage risk and appliance planning for SMEs.
+---
+
 # Grid Outage Planner
 
 Grid Outage Planner forecasts 24-hour grid-outage risk and converts it into a practical appliance ON/OFF plan for small businesses such as salons, cold rooms, and tailor shops.
@@ -16,8 +25,8 @@ cd Your_grid_outage_prioritizer
 Alternative clone from Hugging Face Spaces:
 
 ```bash
-git clone https://huggingface.co/spaces/Iyumva/Grid-outage-prioritizer
-cd Grid-outage-prioritizer
+git clone https://huggingface.co/spaces/Iyumva/Your_grid_outage_prioritizer
+cd Your_grid_outage_prioritizer
 ```
 
 Windows users can double-click:
@@ -139,7 +148,7 @@ The repo does not require a prebuilt checkpoint because `run_demo.py` retrains t
 ## Repository Links
 
 - GitHub: `https://github.com/True-African/Your_grid_outage_prioritizer`
-- Hugging Face Space: `https://huggingface.co/spaces/Iyumva/Grid-outage-prioritizer`
+- Hugging Face Space: `https://huggingface.co/spaces/Iyumva/Your_grid_outage_prioritizer`
 
 The Hugging Face Space is used as a hosted project mirror for the submission files. The local dashboard still runs with `python dashboard.py`.
 
@@ -164,7 +173,7 @@ git push -u origin main
 Push the same commit to Hugging Face Spaces:
 
 ```bash
-git remote add hf https://huggingface.co/spaces/Iyumva/Grid-outage-prioritizer
+git remote add hf https://huggingface.co/spaces/Iyumva/Your_grid_outage_prioritizer
 git push hf main
 ```
 
